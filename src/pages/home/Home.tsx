@@ -1,3 +1,5 @@
+import { USER } from '../../resources/constants'
+
 const Home = () => {
   return (
     <main className="self-center text-center px-[30px] mb-[30px]">
@@ -22,16 +24,7 @@ const Home = () => {
         <p className="text-[18px] text-[#666] mt-4">
           You can find my work on{' '}
           <a
-            href="https://codepen.io/catiarodrigues"
-            target="_blank"
-            rel="noopener"
-            className="text-[#f0c029] hover:text-[#333] transition-colors duration-500"
-          >
-            Codepen
-          </a>
-          ,{' '}
-          <a
-            href="https://github.com/catiarodrigues/"
+            href={USER.GITHUB}
             target="_blank"
             rel="noopener"
             className="text-[#f0c029] hover:text-[#333] transition-colors duration-500"
@@ -40,7 +33,7 @@ const Home = () => {
           </a>{' '}
           and{' '}
           <a
-            href="https://www.instagram.com/catiarodrigues/"
+            href={USER.INSTAGRAM}
             target="_blank"
             rel="noopener"
             className="text-[#f0c029] hover:text-[#333] transition-colors duration-500"

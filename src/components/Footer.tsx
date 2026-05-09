@@ -1,10 +1,12 @@
+import { USER } from '../resources/constants'
+
 const Footer = () => {
   return (
     <footer className="p-[30px]">
       <ul className="flex list-none justify-center m-0 p-0 gap-[30px]">
         <li>
           <a
-            href="https://www.linkedin.com/in/catiarrodrigues/"
+            href={USER.LINKEDIN}
             target="_blank"
             rel="noopener"
             className="text-[#333] no-underline hover:text-[#f0c029] hover:underline transition-colors duration-500"
@@ -14,7 +16,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="mailto:catiarrodrigues@gmail.com"
+            href={`mailto:${USER.EMAIL}`}
             className="text-[#333] no-underline hover:text-[#f0c029] hover:underline transition-colors duration-500"
           >
             send me an email

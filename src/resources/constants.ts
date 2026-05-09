@@ -1,4 +1,7 @@
 export const USER = {
   NAME: 'Cátia Rodrigues',
-  GITHUB: 'catiarodrigues',
+  LINKEDIN: 'https://www.linkedin.com/in/catiarrodrigues/',
+  EMAIL: 'hello@catiarodrigues.dev',
+  GITHUB: 'https://github.com/catiarodrigues',
+  INSTAGRAM: 'https://www.instagram.com/catia.codes',
 }
