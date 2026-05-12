@@ -3,12 +3,25 @@
 @theme {
   --font-cookie: 'Cookie', cursive;
   --font-raleway: 'Raleway', sans-serif;
-  --color-dark: #333;
+  --color-ink: #333;
   --color-muted: #666;
   --color-accent: #f0c029;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark {
+  --color-ink: #e2e8f0;
+  --color-muted: #94a3b8;
+  --color-accent: #fbbf24;
+}
+
 @layer base {
+  body {
+    color: var(--color-ink);
+    transition: color 0.3s;
+  }
+
   a {
     transition: color 0.3s;
   }

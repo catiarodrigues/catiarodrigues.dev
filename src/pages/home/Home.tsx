@@ -16,7 +16,7 @@ const Home = () => {
             href="https://www.cloudflare.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:text-dark"
+            className="text-accent hover:text-ink"
           >
             Cloudflare
           </a>
@@ -27,7 +27,7 @@ const Home = () => {
             href={USER.GITHUB}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:text-dark"
+            className="text-accent hover:text-ink"
           >
             Github
           </a>{' '}
@@ -36,7 +36,7 @@ const Home = () => {
             href={USER.INSTAGRAM}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:text-dark"
+            className="text-accent hover:text-ink"
           >
             Instagram
           </a>

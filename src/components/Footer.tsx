@@ -9,7 +9,7 @@ const Footer = () => {
             href={USER.LINKEDIN}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-dark no-underline hover:text-accent hover:underline"
+            className="text-ink no-underline hover:text-accent hover:underline"
           >
             linkedin
           </a>
@@ -17,7 +17,7 @@ const Footer = () => {
         <li>
           <a
             href={`mailto:${USER.EMAIL}`}
-            className="text-dark no-underline hover:text-accent hover:underline"
+            className="text-ink no-underline hover:text-accent hover:underline"
           >
             send me an email
           </a>

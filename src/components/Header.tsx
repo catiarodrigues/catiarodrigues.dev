@@ -1,4 +1,5 @@
 import profilePic from '../assets/profile.png'
+import ThemeToggle from './ThemeToggle'
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
           alt="Profile picture"
           className="mr-2.5 rounded-full"
         />
-        <div>
+        <div className="mr-auto">
           <div className="text-base">Cátia Rodrigues</div>
           <div>
             <a
@@ -24,6 +25,7 @@ const Header = () => {
             </a>
           </div>
         </div>
+        <ThemeToggle />
       </div>
     </header>
   )
