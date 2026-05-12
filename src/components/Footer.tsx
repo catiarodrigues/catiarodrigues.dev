@@ -2,14 +2,14 @@ import { USER } from '../resources/constants'
 
 const Footer = () => {
   return (
-    <footer className="p-[30px]">
-      <ul className="flex list-none justify-center m-0 p-0 gap-[30px]">
+    <footer className="p-8">
+      <ul className="flex list-none justify-center m-0 p-0 gap-8">
         <li>
           <a
             href={USER.LINKEDIN}
             target="_blank"
-            rel="noopener"
-            className="text-[#333] no-underline hover:text-[#f0c029] hover:underline transition-colors duration-500"
+            rel="noopener noreferrer"
+            className="text-dark no-underline hover:text-accent hover:underline"
           >
             linkedin
           </a>
@@ -17,7 +17,7 @@ const Footer = () => {
         <li>
           <a
             href={`mailto:${USER.EMAIL}`}
-            className="text-[#333] no-underline hover:text-[#f0c029] hover:underline transition-colors duration-500"
+            className="text-dark no-underline hover:text-accent hover:underline"
           >
             send me an email
           </a>

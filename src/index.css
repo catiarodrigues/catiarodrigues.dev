@@ -3,6 +3,19 @@
 @theme {
   --font-cookie: 'Cookie', cursive;
   --font-raleway: 'Raleway', sans-serif;
+  --color-dark: #333;
+  --color-muted: #666;
+  --color-accent: #f0c029;
+}
+
+@layer base {
+  a {
+    transition: color 0.3s;
+  }
+}
+
+.h1-tag {
+  padding: 0 40px;
 }
 
 .h1-tag::before {
@@ -12,7 +25,7 @@
   position: absolute;
   font-weight: 100;
   font-family: 'Raleway', sans-serif;
-  left: -30px;
+  left: 0;
 }
 
 .h1-tag::after {
@@ -22,6 +35,6 @@
   position: absolute;
   font-weight: 100;
   font-family: 'Raleway', sans-serif;
-  right: -30px;
+  right: 0;
   bottom: 0;
 }

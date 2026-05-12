@@ -2,12 +2,12 @@ import { USER } from '../../resources/constants'
 
 const Home = () => {
   return (
-    <main className="self-center text-center px-[30px] mb-[30px]">
+    <main className="self-center text-center px-8 mb-8">
       <div>
-        <h1 className="h1-tag inline-block font-[Cookie] text-[60px] relative">
+        <h1 className="h1-tag inline-block font-cookie text-6xl relative">
           Hi, I'm Cátia!
         </h1>
-        <p className="text-[18px] mt-4">
+        <p className="text-lg mt-4">
           I'm a self-taught Frontend Developer based in beautiful Baleal,
           Portugal.
           <br />
@@ -15,19 +15,19 @@ const Home = () => {
           <a
             href="https://www.cloudflare.com"
             target="_blank"
-            rel="noopener"
-            className="text-[#f0c029] hover:text-[#333] transition-colors duration-500"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-dark"
           >
             Cloudflare
           </a>
         </p>
-        <p className="text-[18px] text-[#666] mt-4">
+        <p className="text-lg text-muted mt-4">
           You can find my work on{' '}
           <a
             href={USER.GITHUB}
             target="_blank"
-            rel="noopener"
-            className="text-[#f0c029] hover:text-[#333] transition-colors duration-500"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-dark"
           >
             Github
           </a>{' '}
@@ -35,8 +35,8 @@ const Home = () => {
           <a
             href={USER.INSTAGRAM}
             target="_blank"
-            rel="noopener"
-            className="text-[#f0c029] hover:text-[#333] transition-colors duration-500"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-dark"
           >
             Instagram
           </a>
