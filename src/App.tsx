@@ -1,7 +1,7 @@
-import { ThemeProvider } from './contexts/ThemeContext'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Home from './pages/home/Home'
+import { ThemeProvider } from './contexts/ThemeContext';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './pages/home/Home';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         </div>
       </div>
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export default App
+export default App;

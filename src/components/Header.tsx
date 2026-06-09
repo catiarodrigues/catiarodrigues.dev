@@ -1,5 +1,7 @@
-import profilePic from '../assets/profile.png'
-import ThemeToggle from './ThemeToggle'
+import profilePic from '../assets/profile.png';
+import ThemeToggle from './ThemeToggle';
+
+const INSTAGRAM_HANDLE = 'catiarodrigues';
 
 const Header = () => {
   return (
@@ -9,26 +11,26 @@ const Header = () => {
           src={profilePic}
           width={50}
           height={50}
-          alt="Profile picture"
+          alt="Cátia Rodrigues"
           className="mr-2.5 rounded-full"
         />
         <div className="mr-auto">
           <div className="text-base">Cátia Rodrigues</div>
           <div>
             <a
-              href="https://www.instagram.com/catiarodrigues/"
+              href={`https://www.instagram.com/${INSTAGRAM_HANDLE}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs font-light text-muted no-underline hover:text-accent"
             >
-              @catiarodrigues
+              @{INSTAGRAM_HANDLE}
             </a>
           </div>
         </div>
         <ThemeToggle />
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

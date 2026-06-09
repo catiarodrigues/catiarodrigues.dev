@@ -1,10 +1,24 @@
 {
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+  "oxc.fmt.configPath": ".oxfmtrc.json",
   "eslint.validate": [
     "typescript",
     "typescriptreact",
@@ -14,6 +28,8 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
+  "tailwindCSS.experimental.configFile": "src/index.css",
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass"],
   "typescript.preferences.quoteStyle": "single",
   "javascript.preferences.quoteStyle": "single"
 }

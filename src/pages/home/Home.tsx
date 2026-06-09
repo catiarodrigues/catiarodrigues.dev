@@ -1,11 +1,14 @@
-import { USER } from '../../resources/constants'
+import { USER } from '../../resources/constants';
 
 const Home = () => {
   return (
     <main className="self-center text-center px-8 mb-8">
       <div>
-        <h1 className="h1-tag inline-block font-cookie text-6xl relative">
-          Hi, I'm Cátia!
+        <h1
+          className="h1-tag inline-block font-cookie text-6xl relative"
+          aria-label="Hi, I'm Cátia!"
+        >
+          <span aria-hidden="true">Hi, I'm Cátia!</span>
         </h1>
         <p className="text-lg mt-4">
           I'm a self-taught Frontend Developer based in beautiful Baleal,
@@ -44,7 +47,7 @@ const Home = () => {
         </p>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

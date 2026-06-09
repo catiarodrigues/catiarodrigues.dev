@@ -1,4 +1,4 @@
-import { USER } from '../resources/constants'
+import { USER } from '../resources/constants';
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
         </li>
       </ul>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

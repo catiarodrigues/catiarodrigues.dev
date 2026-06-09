@@ -1,14 +1,15 @@
 {
   "name": "catiarodrigues.dev",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "format": "prettier --write src/"
+    "lint": "oxlint .",
+    "format:check": "oxfmt --check .",
+    "format:write": "oxfmt .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.5",
@@ -25,11 +26,15 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
-    "prettier": "^3.8.3",
+    "oxfmt": "^0.54.0",
+    "oxlint": "^1.69.0",
     "tailwindcss": "^4.3.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10"
   },
-  "packageManager": "yarn@4.9.1"
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "packageManager": "pnpm@10.33.0"
 }

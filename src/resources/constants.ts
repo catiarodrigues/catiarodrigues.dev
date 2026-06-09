@@ -4,4 +4,4 @@ export const USER = {
   EMAIL: 'hello@catiarodrigues.dev',
   GITHUB: 'https://github.com/catiarodrigues',
   INSTAGRAM: 'https://www.instagram.com/catia.codes',
-}
+};
